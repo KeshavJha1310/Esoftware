@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  }
+  .wrapper{
+    min-height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75) ) , url('https://wallpaperaccess.com/full/521111.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+.testimonial{
+  padding: 30px 100px;
+}
+article h1{
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+article h5{
+  font-size: 27px;
+  margin-top: 30px ;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+article h1:after{
+  content: "";
+  height: 5px;
+  width: 225px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+  letter-spacing: 1.5px;
+}
+article p{
+font-size: 17px;
+}
+article img{
+  height: 200px;
+  width: 195px;
+border: 2px solid rgb(30, 29, 29);
+border-radius: 50%;
+margin-top: 100px;
+}
+blockquote{
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-top: 30px ;
+  letter-spacing: 1.5px;
+}
+hr.two{
+  border : 1px solid black;
+   border-radius : 100px;
+  background: green;
+}
+
